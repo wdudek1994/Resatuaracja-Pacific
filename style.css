@@ -3,7 +3,6 @@
 html {
     font-size: 62.5%;
     font-family: 'Rubik', sans-serif;
-
 }
 
 
@@ -81,11 +80,13 @@ a {
 .navigation {
     text-align: center;
     background: #f6f2ef;
-    padding: 1.5rem
+    padding: 1.5rem;
 }
 
 .cookies {
-    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin: auto;
 }
 
 .welcome {
@@ -188,7 +189,26 @@ textarea {
 
 embed {
     width:35%;
-    height: 90%;
+    height: 90%;    
+}
+
+
+@media all and (max-width: 615px) {
     
+ header {
+    background: url(assets/header_photo_small.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+    
+    .cookies {
+    display: none;
+}
+    
+    embed {
+        width: 70%;
+        height: 80%;    
+}
 }
 

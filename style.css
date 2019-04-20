@@ -192,8 +192,12 @@ embed {
     height: 90%;    
 }
 
+.course1, .course2 {
+    display: inline-block;
+}
 
-@media all and (max-width: 615px) {
+
+@media all and (max-width: 680px) {
     
  header {
     background: url(assets/header_photo_small.jpg) no-repeat;
@@ -210,5 +214,15 @@ embed {
         width: 70%;
         height: 80%;    
 }
-}
+    
+    .course1{
+        display: none;
+    }
 
+    
+@media all and (max-width: 450px){
+    .course2 {
+        display: none;
+    }
+    
+    }
